@@ -278,8 +278,8 @@ border-radius: 30%;
   padding-bottom: 30px;
   font-size: 18px;
   max-width: 550px; 
-  box-sizing: border-box;
-  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .text-points-two {
   color: #bcc0c9;
@@ -319,65 +319,16 @@ border-radius: 30%;
   padding-right: 50px;
 
 }
+.text-points-h1 {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;}
 
 
 
 CONTAINER SCROLL SCROLL SCROLL 
-
-.container-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f4f4f4;
-}
-
-.container-projekt {
-  display: flex;
-  align-items: center;
-  width: 80%;
-  max-width: 800px;
-  overflow: hidden;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.scrollable-div {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  width: 100%;
-}
-
-.projects-scroll {
-  flex: 0 0 auto;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.item:hover {
-  background-color: #0056b3;
-}
-
-.scroll-btn {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 3px;
-  margin: 10px;
-}
-
-.scroll-btn:hover {
-  background-color: #0056b3;
-}
